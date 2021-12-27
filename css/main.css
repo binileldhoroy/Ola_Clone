@@ -1,0 +1,41 @@
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+}
+
+.navbar a img{
+    width: 130px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.head-img{
+    background-image: url(../images/bg-img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.car-ola{
+    color: rgb(122, 122, 122);
+    font-size: 17px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}
+
+.book-now{
+    background-color: #CCE500;;
+}
+
+.hov-text:hover{
+    background-color: #a8be00;
+}
+
