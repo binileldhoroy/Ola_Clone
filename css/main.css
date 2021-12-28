@@ -39,3 +39,64 @@ body::before{
     background-color: #a8be00;
 }
 
+.fix-form{
+    position: absolute;
+    transform: translate(70px,-430px);
+    width: 390px;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.from-bttn{
+    background-color: #CCE500;
+    margin-left: 44px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.form-div2{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form-div2 h5{
+    font-size: 15px;
+}
+.form-div2 p{
+    font-size: 12px;
+}
+
+.inp-div{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+.inp-btn{
+    background-color: #CCE500;
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.inp-div input{
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+.inp-div label{
+    font-size: 12px;
+}
