@@ -111,10 +111,21 @@ body::before{
         font-size: 15px;
 
     }
-    
+    .foot-p{
+        display: grid !important;
+    }
+    .foot-p p{
+        font-size: 10px;
+    }
+    .soc{
+        display: flex !important;
+    }
+    .margi{
+        margin: 10px !important;
+    }
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
     .ola p{
         font-size: 8px;
         
@@ -125,5 +136,19 @@ body::before{
         
 
     }
+    .foot-p p{
+        font-size: 10px;
+    }
+    .foot-p{
+        display: grid !important;
+    }
+    .soc{
+        display: flex !important;
+        
+    }
+    .margi{
+        margin: 10px !important;
+    }
+    
     
 }
