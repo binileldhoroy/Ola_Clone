@@ -100,3 +100,30 @@ body::before{
 .inp-div label{
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+    .ola p{
+        font-size: 10px;
+        
+
+    }
+    .ola h5{
+        font-size: 15px;
+
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .ola p{
+        font-size: 8px;
+        
+
+    }
+    .ola h5{
+        font-size: 12px;
+        
+
+    }
+    
+}
